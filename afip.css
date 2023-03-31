@@ -1,0 +1,12 @@
+/* barra de navegación*/
+
+.navbar {
+    padding: 40px;
+    height: 60px;
+    background-color: black !important;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: right;
+}
