@@ -1,3 +1,15 @@
+body {
+    background-color: lightgray;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.btn {
+    font-weight: bold;
+}
+
 /* barra de navegación*/
 
 .navbar {
@@ -28,4 +40,106 @@
     height: 10px;  
     border-radius: 50px;
     text-align: left;
+}
+
+.carousel-caja-logueo {
+    position: relative;
+}
+
+.contenedor-caja-logueo {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 33%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    box-sizing: border-box;
+}
+
+.caja-logueo img {
+    width: 24px;
+    height: 30.96px;
+    margin-right: 3.5%;
+}
+
+.caja-logueo h2 {
+    padding-top: 3%;
+}
+
+.caja-logueo .btn {
+    width: 95%;
+    height: 14%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caja-logueo hr {
+    width: 95%;
+    margin: auto;
+}
+
+.franja-negra {
+    background-color: black;
+    width: 100%;
+    height: 15px;    
+}
+
+.franja-azul {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 8px;    
+}
+
+.mas-consultados {
+    background-color: white;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.mas-consultados h2 {
+    padding: 50px 60px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mas-consultados img {
+    width: 85px;
+    height: 85px;
+}
+
+.mas-consultados .col-4 {
+    padding-left: 55px;
+    padding-bottom: 40px;
+}
+
+/* #presentaciones-digitales:hover {
+    content: url("images/presentaciones-hover.svg");
+}  Este código también sirve para cambiar la imagen cuando el puntero está encima*/
+
+@media (max-width: 990px) {
+    .contenedor-caja-logueo {
+        position: initial;
+        margin: 0px;
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding-top: 3%;
+        }
+
+    .caja-logueo hr {
+        width: 40%;
+        margin: auto;
+
+    }
+
+    .caja-logueo .btn {
+        width: 40%;
+        padding-bottom: 3%;
+    }
 }
