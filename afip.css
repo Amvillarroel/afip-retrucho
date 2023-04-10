@@ -107,6 +107,12 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
+.mas-consultados a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
 .mas-consultados img {
     width: 85px;
     height: 85px;
@@ -120,6 +126,7 @@ h2 {
 /* #presentaciones-digitales:hover {
     content: url("images/presentaciones-hover.svg");
 }  Este código también sirve para cambiar la imagen cuando el puntero está encima*/
+
 
 @media (max-width: 990px) {
     .contenedor-caja-logueo {
